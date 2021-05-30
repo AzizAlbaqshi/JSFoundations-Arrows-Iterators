@@ -5,8 +5,9 @@
  * - Logs every element of the array
  ************************************/
 const logger = function (array) {
-
-};
+    logger.forEach(function (elementsOfArray){ 
+console.log(elementsOfArray);
+});
 
 /*************************************
  * toCelsius(temperatures)
@@ -20,8 +21,11 @@ const logger = function (array) {
  *   C = (F - 32) * (5/9)
  ************************************/
 const toCelsius = function (temperatures) {
+toCelsius.map(function (temp){
+    C = (F - 32) * (5/9);  
+    return c;
 
-};
+});
 
 /**************************************
  * hottestDays(temperatures, threshhold)
